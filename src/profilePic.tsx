@@ -3,7 +3,7 @@ export default function ProfilePic() {
         <>
             <div className="profilePic">
                 <img
-                    src="../public/Profile/profile.jpeg"
+                    src="../public/Photos/profile.jpeg"
                     alt="Couldn't show image"
                 />
             </div>
