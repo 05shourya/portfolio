@@ -1,0 +1,79 @@
+.aboutMe {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 200;
+    word-spacing: 0.4rem;
+    font-family: "Source Code Pro", monospace;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftAboutMe {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftAboutMe p {
+    margin: 2rem;
+}
+
+.rightAboutMe {
+    /* background: red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    /* border: 3px solid white; */
+}
+
+.rightAboutMe img {
+    width: 40%;
+    border-radius: 1rem;
+}
+
+.rightAboutMe .tripPhotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.tripPhotos img {
+    width: 90%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+@media (max-width: 580px) {
+    .rightAboutMe img {
+        width: 60%;
+        border-radius: 1rem;
+    }
+    .rightAboutMe {
+        width: 30%;
+        flex-direction: column;
+    }
+    .leftAboutMe {
+        width: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    .rightAboutMe {
+        gap: 5rem;
+    }
+    .rightAboutMe .tripPhotos {
+        gap: 5rem;
+    }
+
+    .rightAboutMe .tripPhotos img {
+        width: 90%;
+    }
+}
