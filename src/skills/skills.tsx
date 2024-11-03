@@ -12,10 +12,12 @@ import SkillItem from "./skillItem";
 import "./skills.css";
 import {
     faClock,
+    faCloud,
     faComment,
     faDatabase,
     faLeaf,
     faLightbulb,
+    faProjectDiagram,
     faServer,
     faTerminal,
     faUsers,
@@ -27,17 +29,27 @@ export default function Skills() {
         { skillName: "CSS", proficiency: "Advanced", icon: faCss3 },
         { skillName: "Javascript", proficiency: "Advanced", icon: faJs },
         { skillName: "Typescript", proficiency: "Advanced", icon: faTerminal },
-        { skillName: "React", proficiency: "Intermediate", icon: faReact },
+        { skillName: "React", proficiency: "Advanced", icon: faReact },
+        {
+            skillName: "Next.js",
+            proficiency: "Intermediate",
+            icon: faProjectDiagram,
+        },
         { skillName: "Flutter", proficiency: "Intermediate", icon: faFlutter },
         { skillName: "Tailwind", proficiency: "Basic", icon: faCss3Alt },
     ];
     const backendSkills = [
-        { skillName: "SQL", proficiency: "Advanced", icon: faDatabase },
+        { skillName: "Springboot", proficiency: "Advanced", icon: faLeaf },
+        {
+            skillName: "Express.js",
+            proficiency: "Intermediate",
+            icon: faServer,
+        },
         { skillName: "Java", proficiency: "Advanced", icon: faJava },
-        { skillName: "Springboot", proficiency: "Intermediate", icon: faLeaf },
-        { skillName: "MongoDB", proficiency: "Intermediate", icon: faDatabase },
-        { skillName: "Express.js", proficiency: "Basic", icon: faServer },
-        { skillName: "Node.js", proficiency: "Basic", icon: faNodeJs },
+        { skillName: "Node.js", proficiency: "Intermediate", icon: faNodeJs },
+        { skillName: "MongoDB", proficiency: "Advanced", icon: faDatabase },
+        { skillName: "SQL", proficiency: "Intermediate", icon: faDatabase },
+        { skillName: "Firebase", proficiency: "Intermediate", icon: faCloud },
     ];
 
     const softSkills = [

@@ -23,7 +23,7 @@ export default function SocialMediaIcons() {
                 <ResumeButton
                     title="Resume"
                     buttonIcon={faFileAlt}
-                    link="Resume/final_resume.pdf"
+                    link="Resume/shourya_resume.pdf"
                 />
             </div>
         </>
